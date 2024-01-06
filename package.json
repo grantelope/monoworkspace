@@ -1,0 +1,15 @@
+{
+    "name": "@grantelope/greatest-hits",
+    "description": "app",
+    "private": true,
+    "license": "UNLICENSED",
+    "workspaces": [
+        "bff",
+        "autosave",
+        "kit"
+    ],
+    "packageManager": "yarn@4.0.2",
+    "scripts": {
+        "dev": "yarn workspace @grantelope/bff dev & yarn workspace @grantelope/autosave dev"
+    }
+}
